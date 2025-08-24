@@ -121,7 +121,7 @@ def input_image_setup(uploaded_file):
 
 # Streamlit UI
 st.set_page_config(page_title="Gemini PDF/Image Reader")
-st.header("📄 Gemini PDF & Image Reader")
+st.header("📄 DocuVision PDF & Image Reader")
 
 # Input and File Upload
 input = st.text_input("Input Prompt: ", key="input")
