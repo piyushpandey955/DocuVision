@@ -145,8 +145,12 @@ submit = st.button("🔍 Analyze Document")
 
 # Prompt for Gemini
 input_prompt = """
-You are an expert in understanding invoices and documents.
-You will receive input files as images or PDFs and must answer questions based on their content.
+You are an AI document analysis assistant.
+You can understand and analyze any type of document, whether it is text, tables, forms, images, 
+handwritten notes, academic papers, reports, invoices, legal contracts, resumes, or any other PDF or image.
+Your job is to carefully read the content and provide accurate, clear, and context-aware answers 
+to the user's questions about the uploaded file.
+If the user does not ask a specific question, give a structured summary of the document instead.
 """
 
 # If button is clicked
