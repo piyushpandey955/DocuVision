@@ -1,0 +1,13 @@
+prefix=/Users/piyushpandey955/Desktop/AIML/gen ai/Gemini AI/venv
+exec_prefix=/Users/piyushpandey955/Desktop/AIML/gen ai/Gemini AI/venv
+libdir=/Users/piyushpandey955/Desktop/AIML/gen ai/Gemini AI/venv/lib
+sharedlibdir=/Users/piyushpandey955/Desktop/AIML/gen ai/Gemini AI/venv/lib
+includedir=/Users/piyushpandey955/Desktop/AIML/gen ai/Gemini AI/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
